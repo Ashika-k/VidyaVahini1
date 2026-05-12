@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F1FF"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bus Stops"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#4A148C"
+        android:layout_marginBottom="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnCollegeGate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📍 College Gate"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#7E57C2"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/btnMainRoad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📍 Main Road"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#7E57C2"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/btnBusStand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📍 Bus Stand"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#7E57C2"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/btnRailwayStation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📍 Railway Station"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#7E57C2"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/btnMarket"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📍 Market"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#7E57C2"/>
+
+    </LinearLayout>
+
+</LinearLayout>

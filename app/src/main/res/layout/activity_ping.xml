@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#F5F1FF"
+    android:padding="24dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="24dp"
+        app:cardElevation="10dp"
+        android:layout_margin="12dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="28dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🚌 Update Bus Status"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:textColor="#4A148C"
+                android:layout_marginBottom="28dp"/>
+
+            <TextView
+                android:id="@+id/tvStop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Current Stop"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#333333"
+                android:gravity="center"
+                android:layout_marginBottom="30dp"/>
+
+            <Button
+                android:id="@+id/btnPing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="Update Bus Ping"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+
+                android:textColor="@android:color/white"
+                android:backgroundTint="#6A1B9A"
+
+                android:padding="14dp"/>
+
+            <Button
+                android:id="@+id/btnBreakdown"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="🚨 Report Breakdown"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+
+                android:textColor="@android:color/white"
+                android:backgroundTint="#D32F2F"
+
+                android:layout_marginTop="18dp"
+
+                android:padding="14dp"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

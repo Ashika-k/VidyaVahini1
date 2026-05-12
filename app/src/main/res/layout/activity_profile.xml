@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#F5F1FF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="👤 Student Profile"
+            android:textSize="30sp"
+            android:textStyle="bold"
+
+            android:textColor="#4A148C"
+
+            android:layout_marginBottom="30dp"/>
+
+        <EditText
+            android:id="@+id/etStudentName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="Student Name"
+
+            android:padding="16dp"
+
+            android:backgroundTint="#6A1B9A"/>
+
+        <EditText
+            android:id="@+id/etUSN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="USN"
+
+            android:layout_marginTop="18dp"
+
+            android:padding="16dp"
+
+            android:backgroundTint="#6A1B9A"/>
+
+        <EditText
+            android:id="@+id/etStudentPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="Student Phone Number"
+
+            android:inputType="phone"
+
+            android:layout_marginTop="18dp"
+
+            android:padding="16dp"
+
+            android:backgroundTint="#6A1B9A"/>
+
+        <EditText
+            android:id="@+id/etParentPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="Parent Phone Number"
+
+            android:inputType="phone"
+
+            android:layout_marginTop="18dp"
+
+            android:padding="16dp"
+
+            android:backgroundTint="#6A1B9A"/>
+
+        <EditText
+            android:id="@+id/etParentEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="Parent Email"
+
+            android:inputType="textEmailAddress"
+
+            android:layout_marginTop="18dp"
+
+            android:padding="16dp"
+
+            android:backgroundTint="#6A1B9A"/>
+
+        <Button
+            android:id="@+id/btnSaveProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Save Profile"
+
+            android:textAllCaps="false"
+            android:textSize="18sp"
+
+            android:textColor="@android:color/white"
+
+            android:backgroundTint="#6A1B9A"
+
+            android:layout_marginTop="30dp"
+
+            android:padding="16dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

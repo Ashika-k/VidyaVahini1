@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:background="#F5F1FF"
+
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal"
+
+        android:gravity="end">
+
+        <Button
+            android:id="@+id/btnProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="👤 Profile"
+
+            android:textAllCaps="false"
+
+            android:textColor="@android:color/white"
+
+            android:backgroundTint="#6A1B9A"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="VidyaVahini"
+        android:textSize="32sp"
+        android:textStyle="bold"
+
+        android:textColor="#4A148C"
+
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:id="@+id/btnCheckStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Check Bus Status"
+
+        android:textAllCaps="false"
+        android:textSize="18sp"
+
+        android:textColor="@android:color/white"
+
+        android:backgroundTint="#6A1B9A"
+
+        android:padding="16dp"/>
+
+    <Button
+        android:id="@+id/btnUpdateStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Update Bus Status"
+
+        android:textAllCaps="false"
+        android:textSize="18sp"
+
+        android:textColor="@android:color/white"
+
+        android:backgroundTint="#6A1B9A"
+
+        android:layout_marginTop="20dp"
+
+        android:padding="16dp"/>
+
+    <Button
+        android:id="@+id/btnViewRoutes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="View Bus Routes"
+
+        android:textAllCaps="false"
+        android:textSize="18sp"
+
+        android:textColor="@android:color/white"
+
+        android:backgroundTint="#6A1B9A"
+
+        android:layout_marginTop="20dp"
+
+        android:padding="16dp"/>
+
+    <Button
+        android:id="@+id/btnSafeReach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="✅ Safe Reach"
+
+        android:textAllCaps="false"
+        android:textSize="18sp"
+
+        android:textColor="@android:color/white"
+
+        android:backgroundTint="#2E7D32"
+
+        android:layout_marginTop="20dp"
+
+        android:padding="16dp"/>
+
+</LinearLayout>
